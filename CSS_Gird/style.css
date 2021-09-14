@@ -1,0 +1,25 @@
+.container{
+    background-color: crimson;
+    height: 700px;
+    width: 600px;
+    display: grid;
+    /*grid-template-columns: 113px 113px 113px;*/
+    /*grid-template-rows: 113px 113px 113px;*/
+
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 5px;
+    row-gap: 5px;
+}
+
+.item{
+    background-color: yellow;
+    /*height: 100px;*/
+    /*width: 100px;*/
+    /*width: 100px;*/
+}
+
+.item1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
